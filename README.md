@@ -67,6 +67,13 @@ A badge wall. 7 of 30. I read the image URLs of those 7 by hand: 4 are mostly te
 
 Short version. I took the 44 most-followed accounts of a 300-account list, and the first 9 of each peer set ranked by followers. For each I requested `GET /repos/{login}/{login}/readme`, and coded the returned text with fixed rules. [method.md](method.md) has the exact selection rule, every API call and every coding rule. `python code_profiles.py` regenerates the CSV. `python summarize.py` prints every number in this file.
 
+```sh
+git clone https://github.com/rishsadh/profile-readme-guide
+cd profile-readme-guide
+python summarize.py       # every number in this README, from the committed CSV
+python code_profiles.py   # re-fetch and re-code (needs GITHUB_TOKEN or a logged-in gh)
+```
+
 Each README is stored as a size and a SHA-256 hash, not as text, so the CSV shows what was coded without republishing anyone's file.
 
 ## Limits
