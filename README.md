@@ -1,6 +1,6 @@
 # What top GitHub profile READMEs actually contain
 
-![What top GitHub profiles actually do: 32 of the 62 most-followed accounts checked have no profile README at all](media/social-preview.png)
+![What top GitHub profiles actually do: 25 of the 44 most-followed accounts have no profile README at all](media/social-preview.png)
 
 I checked 62 of the most-followed accounts on GitHub for a profile README, and coded the 30 that have one. Read on 29 September 2026. Data, script and method are in this repository, and every number below traces to [data/profiles.csv](data/profiles.csv).
 
@@ -53,7 +53,7 @@ Then, if you write a README, write about 20 lines. Say who you are and what you 
 
 The length and the link count come from the data. The first-line advice is mine. I coded how each README opens (13 headings, 9 HTML blocks, 3 links, 3 plain text, 1 image, 1 empty). The most common opening is a heading, at 13 of 30. No opening is shared by most.
 
-If you have nothing to show yet, skip the README. 32 of these 62 did.
+If you have nothing to show yet, skip the README. 25 of the 44 most-followed did.
 
 ## What not to bother with
 
